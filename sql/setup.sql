@@ -4,10 +4,10 @@
 -- ==========================================
 
 -- Create staging schema
-CREATE SCHEMA IF NOT EXISTS staging;
+-- CREATE SCHEMA staging;
 
 -- Create employees table
-CREATE TABLE IF NOT EXISTS staging.employees (
+CREATE TABLE  staging.employees (
     employee_id SERIAL PRIMARY KEY,
     full_name VARCHAR(100) NOT NULL,
     department VARCHAR(50) NOT NULL,
