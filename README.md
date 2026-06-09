@@ -32,7 +32,7 @@ ssh root@159.65.222.96
 
 ### Screenshot
 
-![SSH Login](screenshots/ssh-login.png)
+![screenshots/SSH Login.png](<screenshots/SSH Login.png>)
 
 ---
 
@@ -54,7 +54,7 @@ id tonym
 
 ### Screenshot
 
-![User Creation](screenshots/user-created.png)
+![screenshots/User Created.png](<screenshots/User Created.png>)
 
 ---
 
@@ -74,7 +74,7 @@ systemctl status postgresql
 
 ### Screenshot
 
-![PostgreSQL Version](screenshots/postgres-version.png)
+![screenshots/postgres.png](screenshots/postgres.png)
 
 ---
 
@@ -90,7 +90,7 @@ CREATE DATABASE tonym;
 
 ### Screenshot
 
-![Database Created](screenshots/database-created.png)
+![screenshots/Databse Created.png](<screenshots/Databse Created.png>)
 
 ---
 
@@ -106,7 +106,7 @@ CREATE SCHEMA staging;
 
 ### Screenshot
 
-![Schema Created](screenshots/schema-created.png)
+![screenshots/Database Table Cretaed.png](<screenshots/Database Table Cretaed.png>)
 
 ---
 
@@ -147,7 +147,7 @@ SELECT * FROM staging.employees;
 
 ### Screenshot
 
-![Data Inserted](screenshots/data-inserted.png)
+![screenshots/Data Inserted.png](<screenshots/Data Inserted.png>)
 
 ---
 
@@ -155,42 +155,38 @@ SELECT * FROM staging.employees;
 
 The following Linux commands were executed and documented during the assignment:
 
-| Command | Purpose |
-|----------|----------|
-| pwd | Display current directory |
-| ls | List directory contents |
-| ls -la | Detailed directory listing |
-| cd | Change directory |
-| mkdir | Create directory |
-| rmdir | Remove directory |
-| touch | Create file |
-| cp | Copy files |
-| mv | Move files |
-| rm | Remove files |
-| cat | Display file contents |
-| less | View file contents |
-| head | View beginning of file |
-| tail | View end of file |
-| grep | Search text |
-| find | Search files |
-| chmod | Change permissions |
-| chown | Change ownership |
-| whoami | Display current user |
-| id | Display user information |
-| uname -a | System information |
-| df -h | Disk usage |
-| free -m | Memory usage |
-| ps aux | Running processes |
-| top | System monitoring |
-| ping | Network connectivity |
-| ssh | Remote access |
-| scp | Secure file transfer |
-| systemctl | Service management |
-| history | Command history |
-
-### Screenshot
-
-![Linux Commands](screenshots/linux-commands.png)
+| Command   | Purpose                    |
+| --------- | -------------------------- |
+| pwd       | Display current directory  |
+| ls        | List directory contents    |
+| ls -la    | Detailed directory listing |
+| cd        | Change directory           |
+| mkdir     | Create directory           |
+| rmdir     | Remove directory           |
+| touch     | Create file                |
+| cp        | Copy files                 |
+| mv        | Move files                 |
+| rm        | Remove files               |
+| cat       | Display file contents      |
+| less      | View file contents         |
+| head      | View beginning of file     |
+| tail      | View end of file           |
+| grep      | Search text                |
+| find      | Search files               |
+| chmod     | Change permissions         |
+| chown     | Change ownership           |
+| whoami    | Display current user       |
+| id        | Display user information   |
+| uname -a  | System information         |
+| df -h     | Disk usage                 |
+| free -m   | Memory usage               |
+| ps aux    | Running processes          |
+| top       | System monitoring          |
+| ping      | Network connectivity       |
+| ssh       | Remote access              |
+| scp       | Secure file transfer       |
+| systemctl | Service management         |
+| history   | Command history            |
 
 ---
 
@@ -207,12 +203,6 @@ scp sample.csv tonym@159.65.222.96:/home/tonym/
 ```bash
 scp tonym@159.65.222.96:/home/tonym/sample.csv .
 ```
-
-### Screenshots
-
-![SCP Upload](screenshots/scp-upload.png)
-
-![SCP Download](screenshots/scp-download.png)
 
 ---
 
@@ -245,23 +235,6 @@ linux-postgresql-data-engineering-assignment/
 │
 ├── sql/
 │   └── setup.sql
-│
-├── linux_commands/
-│   └── commands.md
-│
-└── blog/
-    └── article-link.md
-```
-
----
-
-## Blog Article
-
-**Title:** Linux Fundamentals for Data Engineering
-
-Published Article:
-
-[Insert Blog URL Here]
 
 ---
 
@@ -287,7 +260,7 @@ Through this assignment, I gained hands-on experience in:
 - Working with schemas and structured data
 - Performing secure file transfers using SCP
 - Documenting technical work professionally using GitHub
-- Writing technical content for a data engineering audience
+
 
 ---
 
@@ -296,3 +269,4 @@ Through this assignment, I gained hands-on experience in:
 **Tony Kamande**
 
 Data Engineering Assignment Submission
+```
